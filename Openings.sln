@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openings.Api", "Openings.Api\Openings.Api.csproj", "{F069A55D-9F48-43BA-B0B2-05051407D90A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openings.Data", "Openings.Data\Openings.Data.csproj", "{C4D36A1E-2E32-4E21-A7CE-B004D186D40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openings.Models", "Openings.Models\Openings.Models.csproj", "{2FD2D9D6-3083-4669-83F0-FF8D47466662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F069A55D-9F48-43BA-B0B2-05051407D90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F069A55D-9F48-43BA-B0B2-05051407D90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F069A55D-9F48-43BA-B0B2-05051407D90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F069A55D-9F48-43BA-B0B2-05051407D90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D36A1E-2E32-4E21-A7CE-B004D186D40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D36A1E-2E32-4E21-A7CE-B004D186D40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D36A1E-2E32-4E21-A7CE-B004D186D40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D36A1E-2E32-4E21-A7CE-B004D186D40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD2D9D6-3083-4669-83F0-FF8D47466662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD2D9D6-3083-4669-83F0-FF8D47466662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD2D9D6-3083-4669-83F0-FF8D47466662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD2D9D6-3083-4669-83F0-FF8D47466662}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
