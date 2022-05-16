@@ -6,6 +6,8 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Openings.Api/Openings.Api.csproj", "Openings.Api/"]
+COPY ["Openings.Data/Openings.Data.csproj", "Openings.Data/"]
+COPY ["Openings.Models/Openings.Models.csproj", "Openings.Models/"]
 RUN dotnet restore "Openings.Api/Openings.Api.csproj"
 COPY . .
 WORKDIR "/src/Openings.Api"
